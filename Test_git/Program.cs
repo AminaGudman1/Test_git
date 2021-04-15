@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 namespace Test_git
 {
     class Program
-    {
+    { 
+        static void print()
+        {
+            Console.WriteLine("Это функция");
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("hello word");
